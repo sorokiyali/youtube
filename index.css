@@ -1,0 +1,403 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  /* border: 0; */
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+
+}
+
+html {
+  font-size: 0.85rem;
+}
+
+body {
+  background-color: white;
+  color: black;
+  font-family: poppins, sans-serif;
+  height: auto;
+  font-size: 0.88rem;
+}
+
+/* img{
+  width: 100%;
+  display: block;
+} */
+.header {
+  display: flex;
+  padding: 1rem 1rem;
+}
+
+.bi-list {
+  font-size: 2rem;
+  cursor: pointer;
+  padding-left: 3rem;
+}
+
+.bi-list:hover {
+  height: 40px;
+  width: 40px;
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+  background-color: #eee;
+  border-radius: 90px;
+  cursor: pointer;
+}
+
+.bi-youtube {
+  font-size: 2rem;
+  width: 2.5rem;
+  height: 1.8rem;
+  text-align: center;
+  margin-left: 2rem;
+  font-weight: 500;
+  cursor: pointer;
+  color: red;
+}
+
+.header h3 {
+  margin-left: 0.5rem;
+  margin-top: 0.2rem;
+  padding-right: 25rem;
+  font-size: 1.5rem;
+}
+
+.search input {
+  background-color: white;
+  border: 1px solid rgb(218, 216, 216);
+  width: 550px;
+  height: 45px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding-left: 1rem;
+
+}
+
+.search i {
+  background-color: #f6f2f2;
+  border: 1px solid rgb(218, 216, 216);
+  font-size: 1.5rem;
+  padding: 0.51rem 2rem 1.01rem 1rem;
+  margin-left: -0.9rem;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  cursor: pointer;
+}
+
+.bi-mic-fill {
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  height: 40px;
+  width: 40px;
+  padding: 1rem 1rem 1rem 0.8rem;
+  background-color: #eee;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.bi-camera-video {
+  font-size: 1.2rem;
+  padding: 1rem 2rem 1rem 8rem;
+  cursor: pointer;
+}
+
+.bi-bell {
+  font-size: 1.5rem;
+  padding: 1rem 2rem 1rem 0;
+  cursor: pointer;
+}
+
+.header img {
+  pad: 1rem 1rem 1rem 1rem;
+  height: 3rem;
+  width: 3rem;
+
+}
+
+.container1{
+  display: block;
+}
+
+
+.house {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-left: 1rem; */
+  border-radius: 10px;
+  height: 45px;
+  width: 200px;
+  gap: 1rem;
+  font-size: 1.5rem;
+}
+
+.house:hover {
+  border-radius: 10px;
+  height: 45px;
+  width: 200px;
+  margin-left: 2rem;
+  background-color: #eee;
+  gap: 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-left: 1rem; */
+  border-radius: 10px;
+  height: 45px;
+  width: 200px;
+  gap: 1rem;
+  font-size: 1.5rem;
+
+}
+
+.link:hover {
+  border-radius: 10px;
+  height: 45px;
+  width: 200px;
+  margin-left: 2rem;
+  background-color: #eee;
+  gap: 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+
+.collection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 2rem;
+  border-radius: 10px;
+  height: 45px;
+  width: 200px;
+  gap: 1rem;
+  font-size: 1.5rem;
+}
+
+.collection:hover {
+  border-radius: 10px;
+  height: 45px;
+  width: 200px;
+  margin-left: 1rem;
+  background-color: #eee;
+  gap: 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+hr {
+  width: 220px;
+  margin-left: 1rem;
+  color: #f5f1f1;
+
+}
+
+.play {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  border-radius: 10px;
+  height: 45px;
+  width: 200px;
+  gap: 1rem;
+  font-size: 1.5rem;
+}
+
+.play:hover {
+  border-radius: 10px;
+  height: 45px;
+  width: 200px;
+  padding-left: 1rem;
+  background-color: #eee;
+  gap: 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1rem;
+  border-radius: 10px;
+  height: 45px;
+  width: 200px;
+  gap: 1rem;
+  font-size: 1.5rem;
+}
+
+.arrow:hover {
+  border-radius: 10px;
+  height: 45px;
+  width: 200px;
+  padding-left: 1rem;
+  background-color: #eee;
+  gap: 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.play-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1rem;
+  border-radius: 10px;
+  height: 45px;
+  width: 200px;
+  gap: 1rem;
+  font-size: 1.5rem;
+}
+
+.play-btn:hover {
+  border-radius: 10px;
+  height: 45px;
+  width: 200px;
+  padding-left: 1rem;
+  background-color: #eee;
+  gap: 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.clock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 3rem;
+  border-radius: 10px;
+  height: 45px;
+  width: 200px;
+  gap: 1rem;
+  font-size: 1.5rem;
+}
+
+.clock:hover {
+  border-radius: 10px;
+  height: 45px;
+  width: 200px;
+  margin-left: 1rem;
+  background-color: #eee;
+  gap: 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.hand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1.5rem;
+  border-radius: 10px;
+  height: 45px;
+  width: 200px;
+  gap: 1rem;
+  font-size: 1.5rem;
+}
+
+.hand:hover {
+  border-radius: 10px;
+  height: 45px;
+  width: 200px;
+  padding-left: 1rem;
+  background-color: #eee;
+  gap: 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+
+/* .button-container {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  width: 1000px; 
+  border: 1px solid #ccc;
+  position: relative;
+}
+
+.button-list {
+  display: flex;
+  flex-wrap: nowrap; 
+  gap: 10px; 
+  padding: 10px;
+  transition: transform 0.3s ease;
+}
+
+.scroll-button {
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  padding: 10px;
+  z-index: 1;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  right: 0;
+} */
+.button-container{
+  width:100rem ;
+}
+
+
+.button-list {
+  margin-top:-28rem;
+  padding-left: 20rem;
+  flex-wrap: nowrap;
+  transition: transform 0.3s ease;
+  overflow: hidden;
+} 
+
+.button-list button{
+  width: auto;
+  border-radius: 0.5rem;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem ;
+  margin: 0.1rem;
+  border: none;
+} 
+
+.button-list button:hover{
+  background-color: rgb(227, 222, 222);
+}
+
+.scroll-button {
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  padding: 10px;
+  z-index: 1;
+}
+.left {
+  left: 0;
+}
+
+.right {
+  right: 0;
+} 
+
+.
